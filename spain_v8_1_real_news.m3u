@@ -1,0 +1,59 @@
+#EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml" x-tvg-url="https://www.tdtchannels.com/epg/TV.xml"
+# V8.1 REAL NEWS — conservative build for Channels DVR
+# Built around channels with current public direct-stream evidence.
+
+############################
+# SPAIN CORE
+############################
+
+#EXTINF:-1 tvg-id="La1.TV" tvg-name="La 1" group-title="Spain Core" channel-id="la1.es" channel-number="801",La 1
+https://ztnr.rtve.es/ztnr/1688877.m3u8
+
+#EXTINF:-1 tvg-id="La2.TV" tvg-name="La 2" group-title="Spain Core" channel-id="la2.es" channel-number="802",La 2
+https://ztnr.rtve.es/ztnr/1688885.m3u8
+
+#EXTINF:-1 tvg-id="24Horas.TV" tvg-name="24h" group-title="Spain News" channel-id="24h.es" channel-number="803",24h
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+
+############################
+# SPAIN NEWS / EUROPE
+############################
+
+#EXTINF:-1 tvg-id="Euronews.TV" tvg-name="Euronews Español" group-title="News Intl" channel-id="euronews.es" channel-number="851",Euronews Español
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+
+#EXTINF:-1 tvg-id="324.TV" tvg-name="3Cat Info" group-title="Spain News" channel-id="324.cat" channel-number="852",3Cat Info
+https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="ElPais.TV" tvg-name="El País TV" group-title="Spain News" channel-id="elpais.es" channel-number="853",El País TV
+https://d2epgk1fomaa1g.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9n8y4tw0bk3an/live/fast-channel-el-pais/fast-channel-el-pais.m3u8
+
+############################
+# LATAM / SPANISH NEWS
+############################
+
+#EXTINF:-1 tvg-id="TeleSUR.TV" tvg-name="TeleSUR" group-title="News Intl" channel-id="telesur.ve" channel-number="861",TeleSUR
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+
+############################
+# GLOBAL NEWS
+############################
+
+#EXTINF:-1 tvg-name="Sky News" group-title="News Intl" channel-id="skynews.uk" channel-number="871",Sky News
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+
+#EXTINF:-1 tvg-id="AlJQ.TV" tvg-name="Al Jazeera English" group-title="News Intl" channel-id="aljazeera.int" channel-number="872",Al Jazeera English
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+
+#EXTINF:-1 tvg-name="NHK World" group-title="News Intl" channel-id="nhk.int" channel-number="873",NHK World
+https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
+
+############################
+# COMMENTED / INTENTIONALLY OMITTED
+############################
+
+## CNN International / CNN en Español
+# omitted from this real-news build because your tested CNN pack did not work
+
+## Canal 26 / NTN24
+# omitted from this build because current public evidence was not strong enough for a conservative lineup
