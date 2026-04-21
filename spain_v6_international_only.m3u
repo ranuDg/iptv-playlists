@@ -1,0 +1,15 @@
+#EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml" x-tvg-url="https://www.tdtchannels.com/epg/TV.xml"
+# V6 — International Only
+# Spanish-language international feeds and non-Madrid extras.
+
+#EXTINF:-1 tvg-id="TVE_STAR.TV" tvg-name="Star TVE Europa" tvg-logo="https://graph.facebook.com/STARTVEInternacional/picture?width=200&height=200" group-title="International" channel-id="star-tve.eu" channel-number="851",Star TVE Europa
+https://rtvelivestream.rtve.es/rtvesec/int/star_main_dvr.m3u8
+
+#EXTINF:-1 tvg-id="TVC.TV" tvg-name="TV3.CAT" tvg-logo="https://pbs.twimg.com/profile_images/1269286508625891328/rVes9BS__200x200.png" group-title="International" channel-id="tv3cat.eu" channel-number="852",TV3.CAT
+https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="TVGA.TV" tvg-name="TVG Europa" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="International" channel-id="tvg-europa.eu" channel-number="853",TVG Europa
+https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="13.TV" tvg-name="TRECE" tvg-logo="https://graph.facebook.com/trecetv/picture?width=200&height=200" group-title="Spain Extra" channel-id="trece.es" channel-number="804",TRECE
+https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8

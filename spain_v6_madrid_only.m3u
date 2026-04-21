@@ -1,0 +1,33 @@
+#EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml" x-tvg-url="https://www.tdtchannels.com/epg/TV.xml"
+# V6 — Madrid Only
+# Direct HLS entries only. Telemadrid and LaOtra remain commented placeholders.
+
+#EXTINF:-1 tvg-id="Distrito.TV" tvg-name="Distrito TV" tvg-logo="https://graph.facebook.com/2004860103163343/picture?width=200&height=200" group-title="Madrid" channel-id="distrito.madrid" channel-number="821",Distrito TV
+https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
+
+#EXTINF:-1 tvg-id="Dejate.TV" tvg-name="Déjate de Historias TV" tvg-logo="https://graph.facebook.com/DejateDeHistoriasTV/picture?width=200&height=200" group-title="Madrid" channel-id="dejate.madrid" channel-number="822",Déjate de Historias TV
+https://limited44.todostreaming.es/live/dejatedeh-livestream.m3u8
+
+#EXTINF:-1 tvg-id="EsTuTele.TV" tvg-name="EsTuTele" tvg-logo="https://graph.facebook.com/Estutele/picture?width=200&height=200" group-title="Madrid" channel-id="estutele.madrid" channel-number="823",EsTuTele
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16818&live=1&avod=1&cb=[CACHEBUSTER]&site_page=https%3A%2F%2Ftdtchannels.com&site_name=tdtchannels&hls_marker=1&content_cat=IAB1&content_genre=Entertainment&content_id=Estutele&content_language=es&content_rating=TV-G&content_title=Estutele&coppa=0&ssai_enabled=1
+
+#EXTINF:-1 tvg-name="iPROtv" tvg-logo="https://graph.facebook.com/iprotvspain/picture?width=200&height=200" group-title="Madrid" channel-id="iprotv.madrid" channel-number="824",iPROtv
+https://59ec5453559f0.streamlock.net/iprotv/iprotv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="C33M.TV" tvg-name="C33 Madrid" tvg-logo="https://graph.facebook.com/Canal33Madrid/picture?width=200&height=200" group-title="Madrid" channel-id="c33.madrid" channel-number="825",C33 Madrid
+https://media2.streambrothers.com:1936/8140/8140/.m3u8
+
+#EXTINF:-1 tvg-name="KUBO TV" tvg-logo="https://yt3.ggpht.com/qUSCv44hJJ_C-k77dAwnCrNUqj30HYxD7zsNwZwe57POg1SPpLaBKi9JJ-_stu9GXkxPnnvlzo0=s200" group-title="Madrid" channel-id="kubo.madrid" channel-number="826",KUBO TV
+https://249807.global.ssl.fastly.net/68ce6783e24d0e8c2921aec8/live_877841b0996411f0a0647dde7e4bde90/index.m3u8
+
+#EXTINF:-1 tvg-name="LIRA TV" tvg-logo="https://graph.facebook.com/liratvlive/picture?width=200&height=200" group-title="Madrid" channel-id="lira.madrid" channel-number="827",LIRA TV
+https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Teleganés" tvg-logo="https://graph.facebook.com/1423419417957760/picture?width=200&height=200" group-title="Madrid" channel-id="teleganes.madrid" channel-number="828",Teleganés
+https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
+
+##EXTINF:-1 tvg-id="Telemadrid.TV" tvg-name="Telemadrid" group-title="Madrid" channel-id="telemadrid.madrid" channel-number="811",Telemadrid
+# web-only currently
+
+##EXTINF:-1 tvg-id="LaOtra.TV" tvg-name="LaOtra" group-title="Madrid" channel-id="laotra.madrid" channel-number="812",LaOtra
+# web-only currently
